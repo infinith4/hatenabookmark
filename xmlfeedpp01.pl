@@ -6,7 +6,6 @@ use XML::FeedPP;
 use Data::Dumper;
 
 my $offset = 0;
-
 my $tagname = "あとで読む";
 my $source = 'http://b.hatena.ne.jp/infinity_th4/atomfeed?tag='.$tagname.'&of='.$offset;
 
